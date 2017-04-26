@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-htmlmin/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-htmlmin/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-htmlmin/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-htmlmin/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-htmlmin/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-htmlmin/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-htmlmin/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-htmlmin/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-htmlmin/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-htmlmin/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-htmlmin/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-htmlmin/build/coverage.html/index.html)
 
@@ -107,7 +107,8 @@
         "pretest": "eslint --config @shinnn/node-legacy index.js test",
         "test": "_mocha"
     },
-    "version": "3.0.0"
+    "version": "3.0.0",
+    "bin": {}
 }
 ```
 
